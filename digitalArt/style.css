@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #ffeecc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+#sosyal{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+}
+#logo{
+    float: left;
+    letter-spacing: 1px;
+    margin: 15px;
+    font-weight: bold;
+}
+font{
+    color: #ff0066;
+    font-size: 35px;
+}
+.art{
+    color: #cea70c;
+    font-size: 40px;
+}
+ul.menu{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+ul.menu li{
+    list-style: none;
+    float: left;
+}
+ul.menu li a{
+    color: #800780;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 15px;
+    display: block;
+    margin-right: 57px;
+    padding-top: 30px;
+    transition: all 0.6s;
+    font-weight: bold;
+
+}
+ul.menu li a:hover{
+    font-size: 22px;
+    opacity: 0.8;
+}
+main{
+    background: #eb2674;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+h3{
+    color: #fffa1bed;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 65px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.digital{
+    color: #fffa1bed;
+}
+.btn{
+    transform: translate(44%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.btn button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    background: #fffa1bed;
+    color: #eb2674;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.6s;
+}
+.btn button:hover{
+    opacity: 0.8;
+}
+.nokta{
+    color: white;
+    top: 50%;
+    margin-left: 50%;
+}
+.nokta i{
+    font-size: 30px;
+    transform: translate(-100%, -40%);
+    margin-top: 15px;
+    opacity: 0.7;
+}
+.nokta ul{
+    transform: translate(-7%,-22%);
+    opacity: 0.8;
+}
+.yazi{ 
+    width: 30%;
+    margin-left: 34%;
+    color: white;
+    opacity: 0.8;
+}
+.yazi p{
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.baslik {
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+}
+.baslik h2{
+    font-weight: bold;
+    color: #800780;
+}
+.resimsol{
+    width: 49%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.8s;
+}
+.resimsol:hover{
+    opacity: 0.6;
+}
+.rsmsol{
+    width: 100%;
+    height: 419px;
+    border-radius: 5px;
+}
+.resimsag{
+    width: 48%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+    transition: all 0.8s;
+}
+.resimsag:hover{
+    width: 40%;
+    opacity: 0.6;
+}
+.resim1, .resim2{
+    width: 48%;
+    height: auto;
+    float: left;
+    display: inline-block;
+}
+.resim1 img{
+    width: 98%;
+    height: 210px;
+    border-radius: 5px;
+}
+.resim2 img{
+    width: 98%;
+    height: 210px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.resim3, .resim4{
+    width: 48%;
+    height: auto;
+    float: left;
+    display: inline-block;
+}
+.resim3 img{
+    width: 98%;
+    height: 210px;
+    border-radius: 5px;
+}
+.resim4 img{
+    width: 98%;
+    height: 210px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background: rgba(56, 18, 145, 0.952);
+    margin-bottom: -60px;
+}
+.baslik1{
+    color: #fffa1bed;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 15px;
+}
+.icons{
+    color: white;
+    margin-left: 14%;
+    margin-top: 70px;
+    padding: 0px;
+}
+.icons i{
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 25px;
+    display: inline-block;
+}
+.icons a{
+    color: white;
+    padding: 10px;
+    transition: all 0.6s;
+}
+.icons a:hover{
+    font-size: 20px;
+    opacity: 0.6;
+}
+.icerik{
+    background: rgb(38, 4, 117);
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+}
+.iltbaslik{
+    color: #fffa1bed;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 15px;
+}
+.mail{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.resim{
+    width: 80%;
+    height: 200px;
+    margin-left: 95px;
+    margin-top: 60px;
+}
+.resim img{
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.footerfont{
+    color: #ff0066;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 25%;
+    font-weight: bold;
+    line-height: 70px;
+}
+.artfooter{
+    color: #cea70c;
+    font-size: 30px;
+}
+.footerYazi{
+    float: left;
+    color: #800780;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.medya{
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.medya i{
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    background: #c2b8a4;
+    margin-left: 5px;
+}
+.medya a{
+    color: white;
+    transition: all 0.6s;
+}
+.medya a:hover{
+    font-size: 20px;
+    opacity: 0.6;
+}
